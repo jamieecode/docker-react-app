@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-노asfasf놉        </a>
+Learn React</a>
       </header>
     </div>
   );
