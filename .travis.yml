@@ -7,7 +7,7 @@ services:
 
 before_install:
   - echo "start Creating an image with dockerfile"
-  - docker build -t jamieecode/docker-react-app -f Dockerfile.dev
+  - docker build -t jamieecode/docker-react-app -f DOckerfile.dev
 
 script:
   - docker run -e CI=true jamieecode/docker-react-app npm run test -- --coverage
